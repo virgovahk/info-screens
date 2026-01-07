@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Race Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+      margin: 0;
+    }
+    h1 {
+      margin-bottom: 40px;
+    }
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .button-container a {
+      display: inline-block;
+      padding: 20px 30px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      transition: background-color 0.2s;
+    }
+    .button-container a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Race Control Dashboard</h1>
+  <div class="button-container">
+  <a href="/front-desk">Front Desk</a>
+  <a href="/race-control">Race Control</a>
+  <a href="/lap-line-tracker">Lap Line Tracker</a>
+  <a href="/leader-board">Leaderboard</a>
+  <a href="/next-race">Next Race</a>
+  <a href="/race-flags">Race Flags</a>
+  <a href="/race-countdown">Race Countdown</a>
+</div>
+</body>
+</html>
